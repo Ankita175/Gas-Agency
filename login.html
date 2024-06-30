@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas Agency</title>
+    <link rel="website icon" type="png" href="./gas agency imgs/cylinders.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo"><a href="home.html">PetroCore</a></h1>
+        <ul>
+            <li><h3><a href="home.html">Home</a></h3></li>
+            <li><h3><a href="about.html">About</a></h3></li>
+            <li><h3><a href="contact.html">Contact</a></h3></li>
+        </ul>
+        <button class="login"><a href="login.html">Log In</a></button>
+    </nav>
+    <div class="login-container">
+      <img src="gas agency imgs/cylinders.png" alt="PetroCore" style="width: 100%;">
+      <div class="container font2">
+        <h1>Login</h1>
+        <div class="login-box">
+          <h2>Admin</h2>
+          <form id="admin-login">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit"><a href="admin.html">Log In</a></button>
+          </form>
+        </div>
+        <div class="login-box">
+          <h2>User</h2>
+          <form id="user-login">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit"><a href="user.html">Log In</a></button>
+          </form>
+        </div>
+        <p class="register"><a href = "register.html">New here? Click here to register.</a></p>
+    </div>
+    </div>
+    <footer>
+        <p>&copy;PetroCore 2024</p>
+        <p>Contact us at:</p>
+        <p>Phone Number: +1 569 568 5632 | Email: contact@petrocore.us</p>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>

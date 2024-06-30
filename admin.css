@@ -1,0 +1,45 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    background-color: rgba(214, 73, 42, 0.2);
+    box-shadow:0 0 10px rgba(166, 33, 4, 0.879);
+    border-radius: 5px;
+  }
+  
+  #member-list, #approval-section {
+    margin-top: 20px;
+    
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: black;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  #approval-section button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #approval-section button.approve {
+    background-color: green;
+    color: white;
+  }
+  
+  #approval-section button.deny {
+    background-color: red;
+    color: white;
+  }
+  

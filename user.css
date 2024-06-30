@@ -1,0 +1,40 @@
+.container{
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    height: 400px;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(214, 73, 42, 0.2);
+    box-shadow:0 0 10px rgba(166, 33, 4, 0.879);
+    border-radius: 5px;
+}
+
+h2{
+    color: white;
+    text-shadow: 0 0 15px grey;
+}
+
+.container button{
+    height: 100px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: black;
+    box-shadow:0 0 10px rgba(166, 33, 4, 0.879);
+    border-radius: 10px;
+}
+
+.container button a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.container button a:hover{
+    text-shadow: 0 0 15px #ff0000;
+}
